@@ -5,27 +5,46 @@
 <head>
     <meta charset="utf-8">
     <title>Florian.R</title>
-    <link href="style.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav>
-            <div></div>
+            <div class="monLogo">F-royaux_</div>
             <ul>
-                <li> <a href="Accueil.html">Accueil</a> </li>
-                <li> <a href="projet.html">projet</a></li>
-                <li> <a href="APropos.html"> a propos</a></li>
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <div class="menu">
+                    <li> <a href="Accueil.html">Accueil</a> </li>
+                    <li> <a href="projet.html">projet</a></li>
+                    <li> <a href="APropos.html"> a propos</a></li>
+                </div>
             </ul>
         </nav>
     </header>
     <button class="bouttonGauche" id="bouttonGaucheAPropos">
-        <a href="projet.html"><img class="imgbutton"
-                src="image\2849833-arrow-arrows-forward-interface-multimedia-navigation-right_107957.png"></a>
+        <a href="projet.html"><img class="imgbutton" src="./image/arrow.png"></a>
     </button>
-    <section class=bloc>
-        <h2>salut!!</h2>
-    </section>
+    <main class="about">
+        <section class="sectionApropos">
+            <h2>salut!!</h2>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore ea odit, rerum alias blanditiis nam, 
+    saepe corrupti ipsam earum ullam incidunt vero optio qui totam sapiente nobis id quisquam. Fugit?</p>
+        </section>
+        <aside >
+            
+            <ul class="contact">
+                <li><h3>contact</h3></li>
+                <li><a href="mailto:florian.royaux@gmail.com"> <img class=logo src="./image/logo/envelope-solid.svg"
+                            alt="envoyer moi un mail"></a></li>
+                <li> <a target="_blank" href=https://github.com> <img class=logo src="./image/logo/github (1).svg"
+                            alt="lien github.com"></a></li>
+                <li> <a target="_blank" href=www.linkedin.com/in/florian-royaux-943164281> <img class=logo
+                            src="./image/logo/linkedin.svg" alt=" lien linkedin"> </a></li>
+            </ul>
+        </aside>
+    </main>
 </body>
 
 </html>

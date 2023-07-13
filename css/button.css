@@ -1,0 +1,56 @@
+.imgbutton {
+    height: 10em;
+    width: 10em;
+  }
+  
+  button {
+    height: 10em;
+    width: 8em;
+    background: radial-gradient(#5A5E6B, lightgrey);
+    opacity: 0.5;
+  }
+  
+  button :hover {
+    opacity: 1;
+    background: radial-gradient(#5A5E6B, rgba(211, 211, 211, 0.249));
+    /* background-color: green; */
+  }
+  
+  .bouttonDroit {
+    border-radius: 25px 0px 0px 25px;
+    position: absolute;
+    top: 45%;
+    right: 0%;
+    padding: 3px;
+  }
+  
+  .bouttonGauche {
+    border-radius: 0px 25px 25px 0px;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    padding: 3px;
+  }
+  
+  .bouttonGauche img {
+    rotate: 180deg;
+  }
+  
+  .imgbutton {
+    width: 70%;
+    height: 70%;
+  }
+
+@media screen and (max-width: 768px) {
+  
+
+  button {
+    display: none
+  }
+}
+
+@media screen and (max-height: 400px) {
+  button {
+    display: none
+  }
+}

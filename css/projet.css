@@ -1,0 +1,21 @@
+.sectionProjet {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.cardimg {
+    height: 180px;
+    width: 300px;
+}
+
+/* @media screen and (min-width:930px) {
+    .sectionProjet { 
+        grid-template-columns: 1fr 1fr;
+}}
+
+@media screen and (min-width:680px){
+    .sectionProjet { 
+        grid-template-columns: 1fr 1fr;
+}
+    
+} */

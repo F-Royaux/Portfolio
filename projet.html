@@ -5,36 +5,83 @@
 <head>
     <meta charset="utf-8">
     <title>Florian.R</title>
-    <link href="style.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
     <link rel="stylesheet" href="element.css">
 </head>
 
 <body>
     <header>
         <nav>
-            <div></div>
+            <div class="monLogo">F-royaux_</div>
             <ul>
-                <li> <a href="Accueil.html">Accueil</a> </li>
-                <li> <a href="projet.html">projet</a></li>
-                <li> <a href="APropos.html"> a propos</a></li>
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <div class="menu">
+                    <li> <a href="Accueil.html">Accueil</a> </li>
+                    <li> <a href="projet.html">projet</a></li>
+                    <li> <a href="APropos.html"> a propos</a></li>
+                </div>
             </ul>
         </nav>
     </header>
 
     <button class="bouttonGauche" id="bouttonGaucheProjet">
-        <a href="Accueil.html"><img class="imgbutton"
-                src="image\2849833-arrow-arrows-forward-interface-multimedia-navigation-right_107957.png"></a>
-        <button class="bouttonDroit" id="bouttonDroitProjet">
-            <a href="Apropos.html"><img class="imgbutton"
-                    src="image\2849833-arrow-arrows-forward-interface-multimedia-navigation-right_107957.png"></a>
-        </button>
-        <section class=bloc>
-            <h2>salut!!</h2>
+        <a href="Accueil.html"><img class="imgbutton" src="./image/arrow.png"></a>
+    </button>
+    <button class="bouttonDroit" id="bouttonDroitProjet">
+        <a href="Apropos.html"><img class="imgbutton" src="./image/arrow.png"></a>
+    </button>
+    <main class="projet">
+        <h2>quelques unes de mes oeuvres: </h2>
+        <section class="sectionProjet">
+            <div class="card">
+                <img class="cardimg" src="img_Fake.png" alt="Fake">
+                <div class="container">
+                    <h4><b>Portfolio F.Royaux</b></h4>
+                    <p><a href="./Accueil.html">Vous êtes sur mon portfolio</a></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="cardimg" src="./image/Fake/element-1.png" alt="Fake">
+                <div class="container">
+                    <h4><b>c'est du Fake</b></h4>
+
+                </div>
+            </div>
+            <div class="card">
+                <img class="cardimg" src="./image/Fake/element-2.png" alt="Fake">
+                <div class="container">
+                    <h4><b>c'est du Fake</b></h4>
+
+                </div>
+            </div>
+            <div class="card">
+                <img class="cardimg" src="./image/Fake/element-3.png" alt="Fake">
+                <div class="container">
+                    <h4><b>c'est du Fake</b></h4>
+
+                </div>
+            </div>
+            <div class="card">
+                <img class="cardimg" src="./image/Fake/element-4.png" alt="Fake">
+                <div class="container">
+                    <h4><b>c'est du Fake</b></h4>
+
+                </div>
+
+            </div>
+            <div class="card">
+                <img class="cardimg" src="./image/Fake/element-5.png" alt="Fake">
+                <div class="container">
+                    <h4><b>c'est du Fake</b></h4>
+
+                </div>
+
+            </div>
+
         </section>
-        <footer>
-            <a target="_blank" href="https://github.com/F-Royaux" class="lien-icone">
-                <img src=C:\Dev\portfolio florian Royaux\image\logo\logogithub.png alt="logo git">
-        </footer>
+    </main>
+
 </body>
 
 </html>

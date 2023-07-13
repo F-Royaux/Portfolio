@@ -1,0 +1,16 @@
+@import url(./css/reset.css);
+@import url(./css/style.css);
+@import url(./css/header.css);
+@import url(./css/button.css);
+@import url(./css/acceuil.css);
+@import url(./css/Apropos.css);
+@import url(./css/projet.css);
+
+@font-face {font-family: "MEF Display";
+    src: url("8e2aed39bd0aa51caec9195b8abdd9a5.eot"); /* IE9*/
+    src: url("8e2aed39bd0aa51caec9195b8abdd9a5.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("8e2aed39bd0aa51caec9195b8abdd9a5.woff2") format("woff2"), /* chrome、firefox */
+    url("8e2aed39bd0aa51caec9195b8abdd9a5.woff") format("woff"), /* chrome、firefox */
+    url("8e2aed39bd0aa51caec9195b8abdd9a5.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("8e2aed39bd0aa51caec9195b8abdd9a5.svg#MEF Display") format("svg"); /* iOS 4.1- */
+  }
