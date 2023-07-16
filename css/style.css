@@ -1,29 +1,28 @@
-/* * {
-  margin: 0px;
-  padding: 0px;
-  font-family: sans-serif;
-  font-size: 1em;
-} */
+
 
 header {
-   min-height: 10%;
+   min-height: 10vh;
     width: 100%;
     /* background: linear-gradient(#06061d, #11114e); */
     /* background-image: linear-gradient(to bottom,#260d56, #11114e); */
     /* background-color: #260d56; */
-    background-color: #40826d;
+    /* background-color: #40826d; */
     /* background-image:linear-gradient(black,rgb(032, 033, 079,0.5));     */
     /* background: rgb(134,31,139);
     background: linear-gradient(71deg, rgba(134,31,139,0.8128501400560224) 18%, rgba(17,17,78,1) 100%); */
-    
+    /* background-color:teal; */
+    background-color: #011936;
     height: 50px;
-
     position: fixed;
+    font-size: 1.3rem;
   }
   
 body {
   height: 100vh;
-  background-image: linear-gradient(to bottom, #11114e, #00CCFF);
+  /* background-image: linear-gradient(to bottom, #11114e, #00CCFF); */
+  /* background-color: #2E933C; */
+    /* background-color: #11114e; */
+background-color: #011936;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -32,6 +31,7 @@ body {
 }
 main {
   width: 100%;
+  padding-top: 50px;
 }
 section {
   padding-top: 100px;
@@ -43,6 +43,9 @@ section {
   margin: 10px 0 0 20px;
 }  */
 .marge {
-  padding-left: 15%;
+  padding-left: 150px;
 }
 
+h2{
+  font-size: 1.7rem;
+}
