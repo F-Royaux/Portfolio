@@ -1,8 +1,12 @@
+
+/* .mesoeuvres {
+    margin-top: 100px;
+} */
 .sectionProjet {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(340px ,1fr)) ;
+    grid-template-columns: repeat(auto-fill, minmax(300px ,1fr)) ;
     gap: 40px;
-    margin: 4em;
+    /* margin: 4em; */
     align-items: center;
 }
 
@@ -14,10 +18,22 @@
     justify-content: space-between;
     align-items: center;
     width: 300px;
-    box-shadow: 4px 4px 4px rgba(255,255,255,0.7);
+    /* box-shadow: 4px 4px 4px rgba(255,255,255,0.7); */
     background-color: white;
     color: black;
-   
+}
+
+.card:nth-child(even) {
+    box-shadow: 4px 4px 4px #f000ff;
+}
+.card:nth-child(odd) {
+    box-shadow: 4px 4px 4px #74ee15;
+}
+.card:nth-child(even):hover {
+    box-shadow: 6px 6px 2px #f000ff;
+}
+.card:nth-child(odd):hover {
+    box-shadow: 6px 6px 2px #74ee15;
 }
 .cardimg {
     height: 180px;
@@ -30,6 +46,6 @@
     margin: 4px;
 }
 
-.card:hover{
+/* .card:hover{
     box-shadow: 6px 6px rgba(255,255,255,0.6)
-}
+} */

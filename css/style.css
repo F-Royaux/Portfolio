@@ -1,51 +1,37 @@
-
-
 header {
-   min-height: 10vh;
-    width: 100%;
-    /* background: linear-gradient(#06061d, #11114e); */
-    /* background-image: linear-gradient(to bottom,#260d56, #11114e); */
-    /* background-color: #260d56; */
-    /* background-color: #40826d; */
-    /* background-image:linear-gradient(black,rgb(032, 033, 079,0.5));     */
-    /* background: rgb(134,31,139);
-    background: linear-gradient(71deg, rgba(134,31,139,0.8128501400560224) 18%, rgba(17,17,78,1) 100%); */
-    /* background-color:teal; */
-    background-color: #011936;
-    height: 50px;
-    position: fixed;
-    font-size: 1.3rem;
-  }
-  
+  min-height: 10vh;
+  width: 100%;
+  background-color: #011936;
+  height: 50px;
+  position: fixed;
+  font-size: 20px;
+}
+
 body {
   height: 100vh;
-  /* background-image: linear-gradient(to bottom, #11114e, #00CCFF); */
-  /* background-color: #2E933C; */
-    /* background-color: #11114e; */
-background-color: #011936;
+  background-color: #011936;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   color: aliceblue;
   font-size: 1rem;
 }
+
 main {
   width: 100%;
-  padding-top: 50px;
+  padding-top: 10vh;
 }
+
 section {
   padding-top: 100px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-/* p, h1 , h2 , h3{
-  margin: 10px 0 0 20px;
-}  */
 .marge {
   padding-left: 150px;
 }
 
-h2{
+h2 {
   font-size: 1.7rem;
 }

@@ -21,6 +21,7 @@ aside{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    color: #ff00f0;
 }
 li h3{
     font-style: bold;

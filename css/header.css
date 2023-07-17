@@ -5,7 +5,6 @@ nav {
   flex-flow: row;
   justify-content: space-evenly;
   background: fixed;
-  color: aliceblue;
   align-items: center;
   height: 100%;
 }
@@ -15,7 +14,6 @@ nav ul {
   width: 70%;
   justify-content: flex-end;
   flex-flow: row, nowrap;
-  
 
 }
 
@@ -33,6 +31,7 @@ nav ul {
 
 .monLogo {
   min-width: 30%;
+  color:aliceblue;
 
 }
 
@@ -50,10 +49,12 @@ nav ul {
   color: #74ee15;
   text-align: center;
   width: 20vw;
-  border-left:solid #74ee15;
+  border-left: solid #74ee15;
 
 }
-
+label{
+  color: #74ee15;
+}
 .menu a:hover {
   color: #f000ff;
   border-left: solid #f000ff;
