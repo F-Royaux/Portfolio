@@ -15,11 +15,13 @@ body {
   background-size: cover;
   color: aliceblue;
   font-size: 1rem;
+  font-family: 'Roboto' sans-serif;
 }
 
 main {
   width: 100%;
   padding-top: 10vh;
+ padding-bottom: 20px;
 }
 
 section {
@@ -34,4 +36,8 @@ section {
 
 h2 {
   font-size: 1.7rem;
+}
+
+p{
+  line-height: 1.7;
 }

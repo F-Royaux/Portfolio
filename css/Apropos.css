@@ -31,7 +31,14 @@ li h3{
     width: 35px;
     height: 35px;
   }
-
+  .legal{
+    font-size: 0.5em;
+    position: relative;
+    bottom: 4%;
+    left: 4%;
+    text-decoration: none;
+    /* margin-bottom: 20px; */
+ }
 
 @media only screen and (max-width : 760px){
     aside{

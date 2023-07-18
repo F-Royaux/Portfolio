@@ -10,13 +10,13 @@
     /* background: radial-gradient(circle, rgba(116,238,21,0.70) 0%, rgba(17,17,78,0.16) 100%); */
     background: radial-gradient(circle, rgba(116,238,21,0.7) 90%, rgba(17,17,78,0.16) 100%);
     /* background-color: #74EE15; */
-    /* opacity: 0.3; */
+    /* background-color: aliceblue;
+    opacity: 0.4; */
   }
   
   button :hover {
     opacity: 1;
     background: radial-gradient(#5A5E6B, rgba(211, 211, 211, 0.249));
-    /* background-color: green; */
   }
   
   .bouttonDroit {
@@ -45,8 +45,6 @@
   }
 
 @media screen and (max-width: 768px) {
-  
-
   button {
     display: none
   }
