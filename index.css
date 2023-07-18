@@ -25,3 +25,13 @@
   url("/police/SanvitoPro/SanvitoPro.ttf")format("truetype"),
   url("/police/SanvitoPro/SanvitoPro.svg")format("svg");
 }
+
+@font-face {
+  font-family: "Lobster";
+  src: url("/police/Lobster/LobsterLobster.eot");
+  src: url("/police/Lobster/Lobster.otf")format("embedded-opentype"),
+  url("/police/Lobster/Lobster.woff2")format("woff2"),
+  url("/police/Lobster/Lobster.woff")format("woff"),
+  url("/police/Lobster/Lobster.ttf")format("truetype"),
+  url("/police/Lobster/Lobster.svg#Lobster")format("svg");
+}

@@ -1,48 +1,46 @@
 .imgbutton {
-    height: 10em;
-    width: 10em;
-  }
-  
-  button {
-    height: 10em;
-    width: 8em;
-    /* background: radial-gradient(#5A5E6B, #011936); */
-    /* background: radial-gradient(circle, rgba(116,238,21,0.70) 0%, rgba(17,17,78,0.16) 100%); */
-    background: radial-gradient(circle, rgba(116,238,21,0.7) 90%, rgba(17,17,78,0.16) 100%);
-    /* background-color: #74EE15; */
-    /* background-color: aliceblue;
-    opacity: 0.4; */
-  }
-  
-  button :hover {
-    opacity: 1;
-    background: radial-gradient(#5A5E6B, rgba(211, 211, 211, 0.249));
-  }
-  
-  .bouttonDroit {
-    border-radius: 25px 0px 0px 25px;
-    position: absolute;
-    top: 45%;
-    right: 0%;
-    padding: 3px;
-  }
-  
-  .bouttonGauche {
-    border-radius: 0px 25px 25px 0px;
-    position: absolute;
-    top: 45%;
-    left: 0;
-    padding: 3px;
-  }
-  
-  .bouttonGauche img {
-    rotate: 180deg;
-  }
-  
-  .imgbutton {
-    width: 70%;
-    height: 70%;
-  }
+  height: 10em;
+  width: 10em;
+}
+
+button {
+  height: 10em;
+  width: 8em;
+  /* background: radial-gradient(#5A5E6B, #011936); */
+  opacity: 0.4;
+  background-color: #74EE15;
+  border: 0;
+}
+
+button:hover {
+  background: #f000ff;
+  opacity: 1;
+}
+
+.bouttonDroit {
+  border-radius: 25px 0px 0px 25px;
+  position: absolute;
+  top: 45%;
+  right: 0%;
+  padding: 3px;
+}
+
+.bouttonGauche {
+  border-radius: 0px 25px 25px 0px;
+  position: absolute;
+  top: 45%;
+  left: 0;
+  padding: 3px;
+}
+
+.bouttonGauche img {
+  rotate: 180deg;
+}
+
+.imgbutton {
+  width: 70%;
+  height: 70%;
+}
 
 @media screen and (max-width: 768px) {
   button {
