@@ -6,14 +6,12 @@
 button {
   height: 10em;
   width: 8em;
-  /* background: radial-gradient(#5A5E6B, #011936); */
   opacity: 0.4;
-  background-color: #74EE15;
+  background: #74EE15;
   border: 0;
 }
 
 button:hover {
-  background: #f000ff;
   opacity: 1;
 }
 

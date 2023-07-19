@@ -21,7 +21,7 @@ body {
 main {
   width: 100%;
   padding-top: 10vh;
- padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 section {
@@ -38,7 +38,16 @@ h2 {
   font-size: 1.7rem;
 }
 
-p{
+p {
   line-height: 1.7;
 }
 
+@media screen and (max-width: 768px) {
+  p{
+    margin-left: 30px;
+    margin-right: 40px;
+  }
+  .marge {
+   padding-left: 15%;
+  }
+}

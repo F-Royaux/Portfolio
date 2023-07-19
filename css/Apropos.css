@@ -14,7 +14,9 @@ aside {
 .sectionApropos {
     width: 69%;
 }
-
+.sectionApropos p{
+    text-align: left;
+}
 .contact {
     /* margin-top: 10vh; */
     height: 100%;
@@ -41,6 +43,19 @@ li h3 {
     bottom: 2%;
     left: 4%;
     text-decoration: none;
+}
+
+
+.photo {
+    background: white;
+    color: black;
+    height: 250px;
+    width: 200px;
+    float: left;
+    border-radius: 10%;
+    margin-left:20px;
+    margin-right: 20px;
+
 }
 
 @media only screen and (max-width : 760px) {
@@ -70,7 +85,7 @@ li h3 {
         align-items: center;
     }
 
-    .legal{
+    .legal {
         position: relative;
     }
 }

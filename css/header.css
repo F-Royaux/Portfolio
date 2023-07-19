@@ -32,19 +32,12 @@ nav ul {
 .monLogo {
   min-width: 30%;
   font-family: 'Lobster', 'Times New Roman', Times, serif;
-  color:aliceblue;
+  color: aliceblue;
   padding-left: 10px;
   font-size: 1.5em;
 
 }
 
-/* header li { 
-  padding-left: 30px;
-  margin-right: 17vw;
-  padding-bottom: 10px;
-  border-bottom: solid #ed1e79;
-
-} */
 
 .menu a {
   display: block;
@@ -55,9 +48,11 @@ nav ul {
   border-left: solid #74ee15;
 
 }
-label{
+
+label {
   color: #74ee15;
 }
+
 .menu a:hover {
   color: #f000ff;
   border-left: solid #f000ff;
@@ -87,16 +82,18 @@ input[type=checkbox] {
     text-align: center;
     padding: 16px 0
   }
+
   .menu a {
     display: block;
     text-decoration: none;
     color: #74ee15;
     text-align: center;
     width: auto;
-    border-left: none ;
+    border-left: none;
     border-top: solid #74ee15;
-  
+
   }
+
   .menu li:hover {
     display: inline-block;
     transition: 0.3s ease;
@@ -114,9 +111,10 @@ input[type=checkbox] {
     display: block;
     margin-right: 15px;
   }
+
   .menu a:hover {
     color: #f000ff;
     border-top: solid #f000ff;
-    border-left:0;
+    border-left: 0;
   }
 }

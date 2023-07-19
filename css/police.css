@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("/police/Roboto/Roboto.eot");
+    src: url("/police/Roboto/Roboto.otf")format("embedded-opentype"),
+    url("/police/Roboto/Roboto.woff2")format("woff2"),
+    url("/police/Roboto/Roboto.woff")format("woff"),
+    url("/police/Roboto/Roboto.ttf")format("truetype"),
+    url("/police/Roboto/Roboto.svg")format("svg");
+  }
+  
+  @font-face {
+    font-family: "Sanvito Pro Display";
+    src:url("/police/SanvitoPro/SanvitoPro.eot");
+    src: url("/police/SanvitoPro/SanvitoPro.otf")"/"format("embedded-opentype"),
+    url("/police/SanvitoPro/SanvitoPro.woff2")format("woff2"),
+    url("/police/SanvitoPro/SanvitoPro.woff")format("woff"),
+    url("/police/SanvitoPro/SanvitoPro.ttf")format("truetype"),
+    url("/police/SanvitoPro/SanvitoPro.svg")format("svg");
+  }
+  
+  @font-face {
+    font-family: "Lobster";
+    src: url("/police/Lobster/LobsterLobster.eot");
+    src: url("/police/Lobster/Lobster.otf")format("embedded-opentype"),
+    url("/police/Lobster/Lobster.woff2")format("woff2"),
+    url("/police/Lobster/Lobster.woff")format("woff"),
+    url("/police/Lobster/Lobster.ttf")format("truetype"),
+    url("/police/Lobster/Lobster.svg#Lobster")format("svg");
+  }
