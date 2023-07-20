@@ -86,6 +86,6 @@ li h3 {
     }
 
     .legal {
-        position: relative;
+        position:static;
     }
 }
