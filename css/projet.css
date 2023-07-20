@@ -44,7 +44,15 @@
     border-radius: 6px 6px 0 0;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+}
 .card h4,
 .card p {
     margin: 4px;
+}
+
+#cardPortfolio {
+    border: 1px solid aliceblue;
 }
