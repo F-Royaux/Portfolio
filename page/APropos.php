@@ -5,26 +5,14 @@
 <head>
     <meta charset="utf-8">
     <title>A Propos F.Royaux</title>
-    <link href="index.css" rel="stylesheet">
+    <link href="../index.css" rel="stylesheet">
+    <script src="./boutton.js" defer></script> 
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="monLogo">F-Royaux_</div>
-            <ul>
-                <input type="checkbox" id="checkbox_toggle" />
-                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-                <div class="menu">
-                    <li> <a href="Accueil.html">Accueil</a> </li>
-                    <li> <a href="projet.html">Projet</a></li>
-                    <li> <a href="APropos.html">A propos</a></li>
-                </div>
-            </ul>
-        </nav>
-    </header>
-    <button class="bouttonGauche" id="bouttonGaucheAPropos">
-        <a href="projet.html"><img class="imgbutton" src="./image/chevron-right-solid.svg"></a>
+<?php include("../component/nav.php") ?>
+    <button class="bouttonGauche buttonNav" id="bouttonGaucheAPropos">
+        <a href="./projet.php"><img class="imgbutton" src="../image/chevron-right-solid.svg"></a>
     </button>
     <main class="about">
         <section class="sectionApropos">
@@ -32,8 +20,8 @@
             <article>
 
 
-                <img class="photo" src="/image/images.jfif" alt="une photo de chat">  --mettre une photo ici
-                <p>Grâce à mon expertise en HTML, CSS, JavaScript, PHP et MySQL je suis en mesure de concevoir des sites
+                <img class="photo" src="../image/images.jfif" alt="une photo de chat">  --mettre une photo ici
+                <p>Grâce à mon expertise en php, CSS, JavaScript, PHP et MySQL je suis en mesure de concevoir des sites
                     web
                     attrayants et intuitifs.</br>
                     J'accorde une grande importance à l'optimisation du référencement et à l'accessibilité, afin que les
@@ -56,12 +44,12 @@
                 <li>
                     <h3>contact</h3>
                 </li>
-                <li><a href="mailto:florian.royaux@gmail.com"> <img class=logo src="./image/logo/envelope-solid.svg"
+                <li><a href="mailto:florian.royaux@gmail.com"> <img class=logo src="../image/logo/envelope-solid.svg"
                             alt="envoyer moi un mail"></a></li>
-                <li> <a target="_blank" href="https://github.com"> <img class=logo src="./image/logo/github.svg"
+                <li> <a target="_blank" href="https://github.com"> <img class=logo src="../image/logo/github.svg"
                             alt="lien github.com"></a></li>
                 <li> <a target="_blank" href="https://www.linkedin.com/in/florian-royaux-943164281"> <img
-                            class="logo fa-brands fa-github" style="color: #f000ff;" src="./image/logo/linkedin.svg"
+                            class="logo fa-brands fa-github" style="color: #f000ff;" src="../image/logo/linkedin.svg"
                             alt=" lien linkedin"> </a></li>
             </ul>
         </aside>
@@ -77,4 +65,4 @@
     </footer>
 </body>
 
-</html>
+</php>

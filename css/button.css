@@ -3,7 +3,7 @@
   width: 10em;
 }
 
-button {
+.buttonNav {
   height: 10em;
   width: 8em;
   opacity: 0.4;
@@ -11,24 +11,33 @@ button {
   border: 0;
 }
 
-button:hover {
+.buttonNav:hover {
   opacity: 1;
 }
 
 .bouttonDroit {
   border-radius: 25px 0px 0px 25px;
-  position: absolute;
+  position: fixed;
   top: 45%;
-  right: 0%;
+  right: -85px;
   padding: 3px;
+}
+.bouttonDroit:hover{
+  right: 0;
 }
 
 .bouttonGauche {
   border-radius: 0px 25px 25px 0px;
-  position: absolute;
+  position:fixed;
   top: 45%;
-  left: 0;
+  left: -85px;
   padding: 3px;
+}
+.bouttonGauche:hover{
+  left: 0;
+}
+.buttonOnMouse {
+  transform: none;
 }
 
 .bouttonGauche img {
@@ -40,14 +49,15 @@ button:hover {
   height: 70%;
 }
 
+
 @media screen and (max-width: 768px) {
-  button {
+  .buttonNav {
     display: none
   }
 }
 
 @media screen and (max-height: 400px) {
-  button {
+  .buttonNav {
     display: none
   }
 }

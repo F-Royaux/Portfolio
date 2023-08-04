@@ -1,5 +1,5 @@
 #titreAccueil {
-    font-family: "Sanvito Pro Display" , serif ;
+    font-family:"Sanvito Pro Display", serif ;
     font-size: 3.5rem;
     color: aliceblue ;
 
@@ -10,4 +10,10 @@
     flex-direction: column;
     justify-content: space-between;
     
+}
+#boxButtonAnimation{
+    position: absolute;
+    bottom: 10%;
+    left: 50%; 
+     transform: translateX(-50%);
 }
