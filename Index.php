@@ -26,9 +26,11 @@
                 Recusandae ipsum harum quia quos laudantium dolorum. Unde, saepe?</p> -->
         </section>
         <div id="boxButtonAnimation">
-            <button id="starButton">Mettre des étoiles dans le ciel</button>
-            <button id="croix" class="hidden"><a href="/Index.php">x</a></button>
-            <button id="buttonHyperespace" class="hidden">WIP</button>
+            <button id="starButton" class="hpe">Mettre des étoiles dans le ciel</button>
+            <button id="croix" class="hidden hpe"><a href="/Index.php">x</a></button>
+            <button id="buttonHyperespace" class="hidden hpe">Passer en Hyperespace</button>
+            <button id="lienProjet" class="hidden hpe"><a href="./page/projet.php">attérir sur Projet</a></button>
+            <button id="lienApropos" class="hidden hpe"><a href="./page/APropos.php">attérir sur A propos</a></button>
         </div>
     </main>
 
